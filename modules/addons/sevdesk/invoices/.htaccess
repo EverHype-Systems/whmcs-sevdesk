@@ -1,0 +1,13 @@
+# IP-Ablehnung / Erlaubnis
+order allow,deny
+deny from all
+
+# Verhindern Sie den Zugriff auf die .htaccess-Datei
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Verhindern Sie den Zugriff auf Verzeichnisliste und Dateiliste
+Options All -Indexes
+
