@@ -21,13 +21,10 @@ function sevdesk_config() {
                 "Default" => "",
             ],
             "everhype_license_key" => [
-                "FriendlyName" => "EverHype Systems Lizenzschlüssel",
+                "FriendlyName" => "Secret Key",
                 "Type" => "text",
                 "Size" => "50",
-                "Description" => "<br>Dieser Schlüssel dient der Verifizierung Ihrer gekauften Lizenz für dieses Modul. 
-                Ihr Lizenzschlüssel ist grundsätzlich solange gültig bis zum Vertragsende. 
-                <br><b>Sollten Sie offene Rechnungen haben, so kann es passieren, dass das Modul sich abschaltet. 
-                Bitte kümmern Sie sich um die rechtzeitige Zahlung der offenstehenden Position.</b>",
+                "Description" => "<br>Dieser Schlüssel dient zur Absicherung von Schnittstellen. Nutzen Sie bitte hierfür eine uuid4 oder Ihren Lizenzschlüssel von EverHype",
             ],
             "everhype_start_invoice" => [
                 "FriendlyName" => "Start - Rechnungsnummer",
