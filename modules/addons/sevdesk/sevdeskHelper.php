@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../../../init.php';
-require __DIR__ . '/functions.php';
+
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 
