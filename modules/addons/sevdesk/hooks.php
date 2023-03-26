@@ -7,7 +7,7 @@ add_hook('DailyCronJob', 1, function($vars) {
         echo "sevDesk Export startet...";
         CronHelper::doDailyCron();
     } catch (Exception $e) {
-        echo "SevDesk failed... because of: " . PHP_EOL . PHP_EOL . $e->getMessage(); . PHP_EOL;
+        echo "SevDesk failed... because of: " . PHP_EOL . PHP_EOL . $e->getMessage() . PHP_EOL;
     }
 });
 
